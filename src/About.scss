@@ -1,0 +1,184 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@media (min-width: 800px){ 
+.aboutus{
+    position: absolute;
+    top: 983px;
+    left: 120px;
+    height: 500px;
+    width: 1350px;
+    display: flex;
+    gap: 100px;
+    
+   
+        #aboutus-img{
+           
+            width: 612px;
+            height: 408px;
+            margin-top: 91px;
+           
+            
+    
+        }
+
+
+    .aboutus-content{
+        
+        width: 658px;
+        height: 475px;
+
+        h1{
+            font-size: 48px;
+            font-weight: 500;
+            line-height: 56.88 px;
+            margin-bottom: 10px;
+            
+        }
+        .aboutus-underline-1{
+            height: 1px ;
+            width: 238px;
+            background-color: #A9A9A9;
+        }
+        .aboutus-underline-2{
+            position: relative;
+            bottom: 4px;
+            height: 7px;
+            width: 156px;
+            background-color: #A9A9A9;
+            border-radius: 4px;
+        }
+        p{
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 26.55px;
+        }
+        .aboutus-engage-commu{
+            display: flex;
+            margin-top: 40px;
+
+            h1{
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 28.44px;
+            }
+
+            p{
+                width: 272px;
+                
+            }
+        }
+    }
+}
+#asset5{
+    position: absolute;
+    width: 366px;
+    height: 431px;
+    top: 1468px;
+    left: -52px;
+
+}
+}
+
+//default-------------------------
+
+@media only screen and ( max-width : 800px) {
+.aboutus{
+   
+        #aboutus-img{
+           
+            width: 312px;
+            height: 208px;
+            margin-left: 20px;
+        }
+
+
+    .aboutus-content{
+        display: flex;
+        flex-direction: column;
+        .aboutus-title{
+            margin: 10px 0 0 100px ;
+
+            h1{
+                font-size: 32px;
+                font-weight: 500;
+                line-height: 40 px;
+                margin-bottom: 10px;
+               
+                
+            }
+            .aboutus-underline-1{
+                height: 1px ;
+                width: 138px;
+                background-color: #A9A9A9;
+            }
+            .aboutus-underline-2{
+                position: relative;
+                bottom: 4px;
+                height: 7px;
+                width: 56px;
+                background-color: #A9A9A9;
+                border-radius: 4px;
+            }
+        }
+        p{
+            margin: 10px 5px 0 20px ;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 26.55px;
+        }
+        .aboutus-engage-commu{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            // margin-top: 40px;
+
+            .aboutus-engagement{
+              .engagement-title{
+                display: flex;
+                justify-content: start;
+                align-items: center ;
+                gap: 20px;
+
+                img{
+                    margin-top: 20px;
+                    margin-left: 20px;
+                    
+                }
+              }
+            }
+            .aboutus-communication{
+                .communication-title{
+                    display: flex;
+                    justify-content: start;
+                    align-items: center ;
+                    gap: 20px;
+    
+                    img{
+                        margin-top: 20px;
+                        margin-left: 20px;
+                        
+                    }
+                }
+            }
+            h1{
+                font-size: 24px;
+                font-weight: 500;
+                line-height: 28.44px;
+            }
+
+            p{
+                // width: 272px;
+                
+            }
+        }
+    }
+}
+#asset5{
+    display: none;
+
+}
+}

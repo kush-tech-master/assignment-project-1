@@ -1,0 +1,331 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+@media (min-width: 800px){ 
+.team-and-project{
+    position: absolute;
+    width: 100rem;
+    top: 3840px;
+    display: flex;
+    flex-direction: column;
+
+
+
+       
+    .team{
+
+        .team-title{
+            position: absolute;
+           
+            left: 685px;
+
+            h1{   
+            // position: absolute;
+            
+            // left: 685px;   
+            font-size: 48px;
+            font-weight: 500;
+            line-height: 56.88px;
+            
+            
+            }
+            .service-underline-1{
+                height: 1px ;
+                width: 238px;
+                background-color: #A9A9A9;
+            }
+            .service-underline-2{
+                position: relative;
+                bottom: 4px;
+                height: 7px;
+                width: 101px;
+                background-color: #A9A9A9;
+                border-radius: 4px;
+            }
+        }
+
+
+
+        .team-photos{
+            position: absolute;
+            width: 100rem;
+            display: flex;
+            gap: 140px;
+            justify-content: center;
+
+
+            .team-photo-1{
+                p{
+                  
+                    font-size: 22px;
+                    font-weight: 400;
+                    line-height: 26.07px;
+                    
+                    
+                }               
+
+            }
+            .team-photo-2{
+                p{
+                  
+                    font-size: 22px;
+                    font-weight: 400;
+                    line-height: 26.07px;
+                    
+                    
+                } 
+            }
+            .team-photo-3{
+                p{
+                  
+                    font-size: 22px;
+                    font-weight: 400;
+                    line-height: 26.07px;
+                    
+                    
+                } 
+
+            }
+
+        }
+    }
+    #asset8{
+        position: absolute;
+        width: 371.17px;
+        height: 476.12px;
+        top: 180px;
+        left: 1363.23px;
+        angle: -4.76 deg;
+        
+    }
+    .project{
+        position: absolute;
+        width: 1130px;
+        height: 758px;
+        top: 459px;
+        left: 235px;
+
+        .project-title{
+            position: absolute;
+            width: 1130px;
+            left: 439px;
+
+            h1{   
+            // position: absolute;
+            
+            // left: 685px;   
+            font-size: 48px;
+            font-weight: 500;
+            line-height: 56.88px;
+            
+            
+            }
+            .service-underline-1{
+                height: 1px ;
+                width: 362px;
+                background-color: #A9A9A9;
+            }
+            .service-underline-2{
+                position: relative;
+                bottom: 4px;
+                height: 7px;
+                width: 103px;
+                background-color: #A9A9A9;
+                border-radius: 4px;
+            }
+        }
+        .project-photos{
+            display: flex;
+            gap: 22px;
+
+            .project-photo-2{
+                display: flex;
+                gap: 22px;
+                flex-direction: column;
+            }
+        }
+
+    }
+}
+
+}
+
+//default------
+
+@media (max-width: 800px){
+
+    .team-and-project{
+        display: flex;
+        flex-direction: column;
+    
+    
+    
+           
+        .team{
+    
+            .team-title{
+                margin-left: 100px;
+                margin-top: 30px;
+    
+                h1{     
+                font-size: 32px;
+                font-weight: 500;
+                line-height: 40px;
+                
+                
+                }
+                .service-underline-1{
+                    height: 1px ;
+                    width: 158px;
+                    background-color: #A9A9A9;
+                }
+                .service-underline-2{
+                    position: relative;
+                    bottom: 4px;
+                    height: 7px;
+                    width: 90px;
+                    background-color: #A9A9A9;
+                    border-radius: 4px;
+                }
+            }
+    
+    
+    
+            .team-photos{
+                display: flex;
+                gap: 40px;
+                justify-content: center;
+                flex-direction: column;
+                margin-left: 15px;
+                margin-top: 30px;
+    
+    
+                .team-photo-1{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+
+                    img{
+                        height: 200px;
+                        width: 230px;
+                    }
+                    p{
+                      
+                        font-size: 22px;
+                        font-weight: 400;
+                        line-height: 26.07px;
+
+                        
+                        
+                        
+                    }               
+    
+                }
+                .team-photo-2{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    img{
+                        height: 200px;
+                        width: 230px;
+                    }
+                    p{
+                      
+                        font-size: 22px;
+                        font-weight: 400;
+                        line-height: 26.07px;
+                        
+                        
+                    } 
+                }
+                .team-photo-3{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    img{
+                        height: 200px;
+                        width: 230px;
+                    }
+                    p{
+                      
+                        font-size: 22px;
+                        font-weight: 400;
+                        line-height: 26.07px;
+                        
+                        
+                    } 
+    
+                }
+    
+            }
+        }
+        #asset8{
+           display: none;
+            
+        }
+        .project{
+
+    
+            .project-title{
+                margin-left: 70px;
+                margin-top: 20px;
+    
+                h1{   
+   
+                font-size: 32px;
+                font-weight: 500;
+                line-height: 40px;
+
+                
+                
+                }
+                .service-underline-1{
+                    height: 1px ;
+                    width: 232px;
+                    background-color: #A9A9A9;
+                }
+                .service-underline-2{
+                    position: relative;
+                    bottom: 4px;
+                    height: 7px;
+                    width: 103px;
+                    background-color: #A9A9A9;
+                    border-radius: 4px;
+                }
+            }
+            .project-photos{
+                display: flex;
+                flex-direction: column;
+                padding: 10px;
+                margin-top: 30px;
+                gap: 22px;
+    
+                .project-photo-2{
+                    display: flex;
+                    gap: 22px;
+                    flex-direction: column;
+                }
+            }
+    
+        }
+    }
+
+
+
+
+
+
+
+
+ }
+
+
+
+

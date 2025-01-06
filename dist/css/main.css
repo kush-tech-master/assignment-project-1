@@ -1,0 +1,93 @@
+.header {
+  position: relative;
+}
+.header .navbar {
+  display: flex;
+  height: 85px;
+  margin-left: 130px;
+  width: 100%;
+}
+.header .navbar ul {
+  display: flex;
+  width: 472px;
+  margin-left: 573px;
+  margin-right: 130px;
+  align-items: center;
+  justify-content: end;
+  gap: 40px;
+  font-weight: 400;
+  z-index: 5;
+  font-size: 18px;
+  line-height: 21.09px;
+  list-style: none;
+}
+.header .header_main-text #header_main-text-title {
+  position: absolute;
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 66.36px;
+  width: 459px;
+  height: 198px;
+  top: 277px;
+  left: 926px;
+}
+.header .header_main-text #header_main-text-description {
+  position: absolute;
+  width: 459px;
+  height: 67px;
+  top: 500px;
+  left: 926px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.33px;
+}
+.header #asset1 {
+  position: absolute;
+  width: 7.43rem;
+  height: 6.93rem;
+  top: 0;
+  left: 0;
+}
+.header #asset2 {
+  position: absolute;
+  width: 359px;
+  height: 376px;
+  top: -14px;
+  left: 1318px;
+}
+.header #asset3 {
+  position: absolute;
+  width: 266px;
+  height: 580px;
+  top: 325px;
+  left: -29px;
+  z-index: 1;
+}
+.header #asset4 {
+  position: absolute;
+  width: 207px;
+  height: 249px;
+  top: 645px;
+  left: 1470px;
+}
+.header #graphic12 {
+  position: absolute;
+  width: 1403px;
+  height: 789.19px;
+  top: 116px;
+  left: -6px;
+}
+.header #vector {
+  position: absolute;
+  width: 643.63px;
+  height: 438.44px;
+  top: 466.75px;
+  left: 142.19px;
+  z-index: 3;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}/*# sourceMappingURL=main.css.map */

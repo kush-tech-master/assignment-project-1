@@ -1,0 +1,163 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@media (min-width: 800px){ 
+.footer{
+    position: absolute;
+    width: 1340px;
+    height: 208px;
+    top: 5769px;
+    left: 130px;
+    background-color: #BFDBFF;
+    display: flex;
+    gap: 180px;
+    justify-content: center;
+    align-items: center;
+
+    .social{
+        h4{
+          
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 35.36px;
+            text-align: center;
+        }
+        img{
+            display: inline;
+            margin-right: 10px;
+        }
+    }
+    .explore{
+        h4{
+            text-align: center;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 35.36px;
+        }
+    }
+    .contact{
+        h4{
+            padding-left: 7px;
+            text-align: start;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 35.36px;
+        }
+    }
+    .email{
+        h4{
+            padding-left: 7px;
+            text-align: start;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 35.36px;
+        }
+    }
+    li{
+        padding: 7px;
+    }
+}
+.copyright{
+    position: absolute;
+    top: 5999px;
+    left: 627px;
+
+    p{
+        
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 16.59px;
+        
+
+    }
+
+}
+}
+
+//default-----
+
+@media (max-width: 800px){
+    .footer{
+        height: 200px;
+        width: 100vw;
+        padding: 10px;
+        // margin-left: 10px;
+        padding-top: 0px;
+        margin-right: 10px;
+        background-color: #BFDBFF;
+        display: flex;
+        gap: 7px;
+        justify-content: center;
+        align-items: center;
+    
+        .social{
+            margin-top: 55px;
+            h4{
+              
+                font-size: 10px;
+                font-weight: 700;
+                line-height: 35.36px;
+                text-align: center;
+            }
+            img{
+                display: inline;
+                margin-right: 10px;
+            }
+        }
+        .explore{
+            margin-top: 5px;
+            h4{
+                text-align: center;
+                font-size: 10px;
+                font-weight: 700;
+                line-height: 35.36px;
+            }
+        }
+        .contact{
+            margin-top: 40px;
+            h4{
+                padding-left: 7px;
+                text-align: start;
+                font-size: 10px;
+                font-weight: 700;
+                line-height: 35.36px;
+            }
+        }
+        .email{
+            margin-top: 0px ;
+            h4{
+                padding-left: 7px;
+                text-align: start;
+                font-size: 10px;
+                font-weight: 700;
+                line-height: 35.36px;
+            }
+        }
+        li{
+            padding: 7px;
+            font-size: 8px;
+        }
+    }
+    .copyright{
+        // position: absolute;
+        // top: 5999px;
+        // left: 627px;
+        padding: 5px;
+        margin-left: 2px;
+    
+        p{
+            
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 16.59px;
+            
+    
+        }
+    
+    }
+
+
+
+ }

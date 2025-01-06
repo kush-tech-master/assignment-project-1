@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@media (min-width: 800px){ 
+.client{
+    position: absolute;
+    width: 1112px;
+    height: 452px;
+    top: 5242px;
+    left: 233px;
+
+
+    .client-title{
+        position: absolute;
+           
+        left: 412px;
+
+        h1{   
+        // position: absolute;
+        
+        // left: 685px;   
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 56.88px;
+        
+        
+        }
+        .service-underline-1{
+            height: 1px ;
+            width: 310px;
+            background-color: #A9A9A9;
+        }
+        .service-underline-2{
+            position: relative;
+            bottom: 4px;
+            height: 7px;
+            width: 101px;
+            background-color: #A9A9A9;
+            border-radius: 4px;
+        }
+    }
+    .client-photos{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 45px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+}
+
+@media (max-width: 800px){ 
+
+    .client{
+    
+    
+        .client-title{
+            margin-left: 80px;
+            margin-top: 30px;
+            h1{    
+            font-size: 32px;
+            font-weight: 500;
+            line-height: 40px;
+            
+            
+            }
+            .service-underline-1{
+                height: 1px ;
+                width: 200px;
+                background-color: #A9A9A9;
+            }
+            .service-underline-2{
+                position: relative;
+                bottom: 4px;
+                height: 7px;
+                width: 101px;
+                background-color: #A9A9A9;
+                border-radius: 4px;
+            }
+        }
+        .client-photos{
+            height: 300px;
+            width: 300px;
+            margin-top: 20px;
+            margin-left: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            gap: 45px;
+            align-items: center;
+            justify-content: center;
+
+            img{
+                height: 50px;
+                width: 70px;
+            }
+        }
+    }
+    }
+
+
